@@ -1,0 +1,290 @@
+{
+  "testId" : "1-home-page-on-",
+  "name" : "Home page on ",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: home.gspec included tags: mobile",
+      "status" : "info",
+      "time" : 1510585552917,
+      "includedTags" : [ "mobile" ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "home.gspec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "height ~69px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 19
+            },
+            "name" : "inside screen 0px left right",
+            "highlight" : [ "header", "screen" ]
+          } ]
+        }, {
+          "name" : "header.logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "inside header 0px left, 8 to 15px top bottom",
+            "highlight" : [ "header.logo", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "width 48px",
+            "highlight" : [ "header.logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 24
+            },
+            "name" : "height 48px",
+            "highlight" : [ "header.logo" ]
+          } ]
+        }, {
+          "name" : "header.caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "right-of header.logo ~22px",
+            "highlight" : [ "header.caption", "header.logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "text is \"Sample Website\"",
+            "highlight" : [ "header.caption" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Menu",
+        "place" : {
+          "filePath" : "home.gspec",
+          "lineNumber" : 33
+        },
+        "objects" : [ {
+          "name" : "menu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 35
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "menu", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 36
+            },
+            "name" : "aligned vertically all header",
+            "highlight" : [ "menu", "header" ]
+          } ]
+        }, {
+          "name" : "menu.item-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "width > 30px",
+            "highlight" : [ "menu.item-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "height ~64px",
+            "highlight" : [ "menu.item-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 43
+            },
+            "name" : "inside menu 0px left top",
+            "highlight" : [ "menu.item-1", "menu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 54
+            },
+            "name" : "above menu.item-3 0px",
+            "highlight" : [ "menu.item-1", "menu.item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 55
+            },
+            "name" : "aligned vertically all menu.item-3",
+            "highlight" : [ "menu.item-1", "menu.item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "left-of menu.item-2 -1 to 5px",
+            "highlight" : [ "menu.item-1", "menu.item-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "aligned horizontally all menu.item-2",
+            "highlight" : [ "menu.item-1", "menu.item-2" ]
+          } ]
+        }, {
+          "name" : "menu.item-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "width > 30px",
+            "highlight" : [ "menu.item-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "height ~64px",
+            "highlight" : [ "menu.item-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 54
+            },
+            "name" : "above menu.item-4 0px",
+            "highlight" : [ "menu.item-2", "menu.item-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 55
+            },
+            "name" : "aligned vertically all menu.item-4",
+            "highlight" : [ "menu.item-2", "menu.item-4" ]
+          } ]
+        }, {
+          "name" : "menu.item-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "width > 30px",
+            "highlight" : [ "menu.item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "height ~64px",
+            "highlight" : [ "menu.item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "left-of menu.item-4 -1 to 5px",
+            "highlight" : [ "menu.item-3", "menu.item-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "aligned horizontally all menu.item-4",
+            "highlight" : [ "menu.item-3", "menu.item-4" ]
+          } ]
+        }, {
+          "name" : "menu.item-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "width > 30px",
+            "highlight" : [ "menu.item-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "height ~64px",
+            "highlight" : [ "menu.item-4" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "menu.item-3" : {
+          "area" : [ 0, 133, 238, 63 ]
+        },
+        "menu.item-4" : {
+          "area" : [ 237, 133, 237, 63 ]
+        },
+        "header.logo" : {
+          "area" : [ 0, 13, 48, 48 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 475, 69 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 475, 834 ]
+        },
+        "header.caption" : {
+          "area" : [ 70, 20, 261, 39 ]
+        },
+        "menu" : {
+          "area" : [ 0, 70, 475, 126 ]
+        },
+        "menu.item-1" : {
+          "area" : [ 0, 70, 238, 63 ]
+        },
+        "menu.item-2" : {
+          "area" : [ 237, 70, 237, 63 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

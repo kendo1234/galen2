@@ -1,0 +1,93 @@
+{
+  "testId" : "1-my-notes-page-on-desktop",
+  "name" : "My notes page on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 1024x768",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "run logToMyNotes.js",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Click loginButton on welcome page",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: .button-login",
+            "type" : "text"
+          } ],
+          "time" : 1510565678871,
+          "type" : "node"
+        }, {
+          "name" : "Type \"testuser@example.com\" to username on Login page",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: input[name='login.username']",
+            "type" : "text"
+          } ],
+          "time" : 1510565679463,
+          "type" : "node"
+        }, {
+          "name" : "Type \"test123\" to password on Login page",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: input[name='login.password']",
+            "type" : "text"
+          } ],
+          "time" : 1510565680340,
+          "type" : "node"
+        }, {
+          "name" : "Click loginButton on Login page",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: .button-login",
+            "type" : "text"
+          } ],
+          "time" : 1510565680797,
+          "type" : "node"
+        } ],
+        "time" : 1510565678315,
+        "type" : "node"
+      }, {
+        "name" : "check mynotes.gspec --include \"\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mynotes.gspec included tags: ",
+          "status" : "info",
+          "time" : 1510565682919,
+          "includedTags" : [ ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "My Notes",
+            "place" : {
+              "filePath" : "mynotes.gspec",
+              "lineNumber" : 5
+            },
+            "objects" : [ {
+              "name" : "main-caption",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mynotes.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "text is \"My Notes\"",
+                "highlight" : [ "main-caption" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "main-caption" : {
+              "area" : [ 69, 173, 860, 33 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1510565681057,
+        "type" : "node"
+      } ],
+      "time" : 1510565672730,
+      "type" : "node"
+    } ]
+  }
+}

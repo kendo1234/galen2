@@ -1,0 +1,33 @@
+{
+  "tests" : [ {
+    "name" : "Home page on ",
+    "startedAt" : 1510585542990,
+    "endedAt" : 1510585552918,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 26,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "1-home-page-on-",
+    "duration" : 9928,
+    "groups" : [ ],
+    "failed" : false
+  }, {
+    "name" : "Home page on ",
+    "startedAt" : 1510585553095,
+    "endedAt" : 1510585560577,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 24,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 24
+    },
+    "testId" : "2-home-page-on-",
+    "duration" : 7482,
+    "groups" : [ ],
+    "failed" : false
+  } ]
+}

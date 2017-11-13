@@ -1,0 +1,74 @@
+{
+  "testId" : "1-my-notes-page",
+  "name" : "My notes page",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Click loginButton on welcome page",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "css: .button-login",
+        "type" : "text"
+      } ],
+      "time" : 1510583796156,
+      "type" : "node"
+    }, {
+      "name" : "Type \"testuser@example.com\" to username on Login page",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "css: input[name='login.username']",
+        "type" : "text"
+      } ],
+      "time" : 1510583796862,
+      "type" : "node"
+    }, {
+      "name" : "Type \"test123\" to password on Login page",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "css: input[name='login.password']",
+        "type" : "text"
+      } ],
+      "time" : 1510583798628,
+      "type" : "node"
+    }, {
+      "name" : "Click loginButton on Login page",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "css: .button-login",
+        "type" : "text"
+      } ],
+      "time" : 1510583799243,
+      "type" : "node"
+    }, {
+      "name" : "Check layout: mynotes.gspec included tags: desktop",
+      "status" : "info",
+      "time" : 1510583802495,
+      "includedTags" : [ "desktop" ],
+      "sections" : [ {
+        "name" : "My Notes",
+        "place" : {
+          "filePath" : "mynotes.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "main-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "mynotes.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "text is \"My Notes\"",
+            "highlight" : [ "main-caption" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "main-caption" : {
+          "area" : [ 69, 173, 860, 33 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

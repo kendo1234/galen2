@@ -1,0 +1,225 @@
+{
+  "testId" : "1-home-page-on-mobile",
+  "name" : "Home Page on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 500x800",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "run goToLogin.js",
+        "status" : "info",
+        "time" : 1510321376012,
+        "type" : "node"
+      }, {
+        "name" : "check home.gspec --include \"\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: home.gspec included tags: ",
+          "status" : "info",
+          "time" : 1510321384714,
+          "includedTags" : [ ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 11
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "height ~69px",
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside header 0px left, 8 to 15px top bottom",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width 48px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "height 48px",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.caption",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "right-of header.logo ~22px",
+                "highlight" : [ "header.caption", "header.logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Menu",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 33
+            },
+            "objects" : [ {
+              "name" : "menu",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "below header 1px",
+                "highlight" : [ "menu", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "aligned vertically all header",
+                "highlight" : [ "menu", "header" ]
+              } ]
+            }, {
+              "name" : "menu.item-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "width > 30px",
+                "highlight" : [ "menu.item-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "height ~64px",
+                "highlight" : [ "menu.item-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "inside menu 0px left top",
+                "highlight" : [ "menu.item-1", "menu" ]
+              } ]
+            }, {
+              "name" : "menu.item-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "width > 30px",
+                "highlight" : [ "menu.item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "height ~64px",
+                "highlight" : [ "menu.item-2" ]
+              } ]
+            }, {
+              "name" : "menu.item-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "width > 30px",
+                "highlight" : [ "menu.item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "height ~64px",
+                "highlight" : [ "menu.item-3" ]
+              } ]
+            }, {
+              "name" : "menu.item-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "width > 30px",
+                "highlight" : [ "menu.item-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "height ~64px",
+                "highlight" : [ "menu.item-4" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "menu.item-3" : {
+              "area" : [ 0, 133, 238, 63 ]
+            },
+            "menu.item-4" : {
+              "area" : [ 237, 133, 237, 63 ]
+            },
+            "header.logo" : {
+              "area" : [ 0, 13, 48, 48 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 475, 69 ]
+            },
+            "header.caption" : {
+              "area" : [ 70, 20, 261, 39 ]
+            },
+            "menu" : {
+              "area" : [ 0, 70, 475, 126 ]
+            },
+            "menu.item-1" : {
+              "area" : [ 0, 70, 238, 63 ]
+            },
+            "menu.item-2" : {
+              "area" : [ 237, 70, 237, 63 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1510321377494,
+        "type" : "node"
+      } ],
+      "time" : 1510321366301,
+      "type" : "node"
+    } ]
+  }
+}

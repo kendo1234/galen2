@@ -1,0 +1,14 @@
+@@ set domain testapp.galenframework.com
+
+@@ table myDevices
+	|devicename|size|text|
+	|mobile|500x800|mobile|
+	|desktop|1024x768|desktop|
+
+@@ parameterized using myDevices
+My notes page on ${devicename}
+	http://${domain}/ ${size}
+		run logToMyNotes.js
+		check mynotes.gspec --include "${tags}"
+
+
