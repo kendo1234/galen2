@@ -18,66 +18,53 @@ var reportData = {
         "name" : "css: .button-login",
         "type" : "text"
       } ],
-      "time" : 1510583796156,
+      "time" : 1510840638077,
       "type" : "node"
     }, {
-      "name" : "Type \"testuser@example.com\" to username on Login page",
+      "name" : "Login user with email testuser@example.com and password test123",
       "status" : "info",
       "nodes" : [ {
-        "name" : "css: input[name='login.username']",
-        "type" : "text"
+        "name" : "Type \"testuser@example.com\" to username on Login page",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "css: input[name='login.username']",
+          "type" : "text"
+        } ],
+        "time" : 1510840638525,
+        "type" : "node"
+      }, {
+        "name" : "Type \"test123\" to password on Login page",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "css: input[name='login.password']",
+          "type" : "text"
+        } ],
+        "time" : 1510840639568,
+        "type" : "node"
+      }, {
+        "name" : "Click loginButton on Login page",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "css: .button-login",
+          "type" : "text"
+        } ],
+        "time" : 1510840640395,
+        "type" : "node"
       } ],
-      "time" : 1510583796862,
+      "time" : 1510840638524,
       "type" : "node"
     }, {
-      "name" : "Type \"test123\" to password on Login page",
-      "status" : "info",
-      "nodes" : [ {
-        "name" : "css: input[name='login.password']",
-        "type" : "text"
-      } ],
-      "time" : 1510583798628,
+      "name" : "JavaScriptException: Error: Something went wrong, assume it's Landing Pages (/home/kendo/Desktop/galen-learning/tutorial1/my.test.js#20)",
+      "status" : "error",
+      "time" : 1510840640871,
+      "stacktrace" : "org.mozilla.javascript.JavaScriptException: Error: Something went wrong, assume it's Landing Pages (/home/kendo/Desktop/galen-learning/tutorial1/my.test.js#20)\n\tat org.mozilla.javascript.gen._home_kendo_Desktop_galen_learning_tutorial1_my_test_js_20._c_anonymous_2(/home/kendo/Desktop/galen-learning/tutorial1/my.test.js:20)\n\tat org.mozilla.javascript.gen._home_kendo_Desktop_galen_learning_tutorial1_my_test_js_20.call(/home/kendo/Desktop/galen-learning/tutorial1/my.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.access$000(JavaAdapter.java:15)\n\tat org.mozilla.javascript.JavaAdapter$1.run(JavaAdapter.java:586)\n\tat org.mozilla.javascript.Context.call(Context.java:489)\n\tat org.mozilla.javascript.ContextFactory.call(ContextFactory.java:504)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:583)\n\tat adapter2.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
       "type" : "node"
     }, {
-      "name" : "Click loginButton on Login page",
+      "name" : "Screenshot",
       "status" : "info",
-      "nodes" : [ {
-        "name" : "css: .button-login",
-        "type" : "text"
-      } ],
-      "time" : 1510583799243,
+      "attachments" : [ "file-1-screenshot.png", "file-2-pagesource.txt" ],
+      "time" : 1510840640979,
       "type" : "node"
-    }, {
-      "name" : "Check layout: mynotes.gspec included tags: desktop",
-      "status" : "info",
-      "time" : 1510583802495,
-      "includedTags" : [ "desktop" ],
-      "sections" : [ {
-        "name" : "My Notes",
-        "place" : {
-          "filePath" : "mynotes.gspec",
-          "lineNumber" : 5
-        },
-        "objects" : [ {
-          "name" : "main-caption",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "mynotes.gspec",
-              "lineNumber" : 7
-            },
-            "name" : "text is \"My Notes\"",
-            "highlight" : [ "main-caption" ]
-          } ]
-        } ]
-      } ],
-      "objects" : {
-        "main-caption" : {
-          "area" : [ 69, 173, 860, 33 ]
-        }
-      },
-      "screenshot" : "layout-1-screenshot.png",
-      "type" : "layout"
     } ]
   }
 };

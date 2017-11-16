@@ -12,17 +12,23 @@ test("My notes page", function(){
 
 	var welcomePage = new WelcomePage(driver);
 	welcomePage.loginButton.click();
-
+	
 	var loginPage =  new LoginPage(driver);
-	loginPage.username.typeText("testuser@example.com");
-	loginPage.password.typeText("test123");
-	loginPage.loginButton.click();
+	loginPage.loginAsUser("testuser@example.com", "test123");
+	
+
+	throw new Error("Something went wrong, assume it's Landing Pages");	
 
 	checkLayout(driver, "mynotes.gspec", "desktop");
-	});
+});
 
-afterTest(function () {
+afterTest(function (test) {
 	var driver = session.get("driver");
+	if(test.isFailed()) {
+		session.report().info("Screenshot")
+			.withAttachment("screenshot.png", takeScreenshot(driver))
+			.withTextAttachment("pagesource.txt", driver.getPageSource());
+}
 	driver.quit();
 });
 
