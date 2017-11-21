@@ -1,0 +1,222 @@
+{
+  "testId" : "1-login-page-on-mobile",
+  "name" : "Login page on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/#login 450x700",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check loginPage.gspec --include mobile",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: loginPage.gspec included tags: mobile",
+          "status" : "error",
+          "time" : 1511265837513,
+          "includedTags" : [ "mobile" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Menu",
+            "place" : {
+              "filePath" : "loginPage.gspec",
+              "lineNumber" : 24
+            },
+            "objects" : [ ],
+            "sections" : [ {
+              "name" : "&menu_items are aligned horizontally next to each other with -5 to 2px margin",
+              "place" : {
+                "filePath" : "loginPage.gspec",
+                "lineNumber" : 27
+              },
+              "objects" : [ {
+                "name" : "menu.item-3",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 4
+                  },
+                  "name" : "aligned horizontally all menu.item-4",
+                  "highlight" : [ "menu.item-3", "menu.item-4" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "left-of menu.item-4 -5 to 2px",
+                  "highlight" : [ "menu.item-3", "menu.item-4" ]
+                } ]
+              } ]
+            }, {
+              "name" : "&login_form_buttons are aligned vertically above each other with 10 to 17px margin",
+              "place" : {
+                "filePath" : "loginPage.gspec",
+                "lineNumber" : 31
+              },
+              "objects" : [ {
+                "name" : "login_button",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 10
+                  },
+                  "name" : "aligned vertically all cancel_button",
+                  "highlight" : [ "login_button", "cancel_button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 11
+                  },
+                  "name" : "above cancel_button 10 to 17px",
+                  "highlight" : [ "login_button", "cancel_button" ]
+                } ]
+              } ]
+            }, {
+              "name" : "&login_form_buttons are aligned horizontally next to each other with -5 to 5px margin",
+              "place" : {
+                "filePath" : "loginPage.gspec",
+                "lineNumber" : 32
+              },
+              "objects" : [ {
+                "name" : "login_button",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 4
+                  },
+                  "name" : "aligned horizontally all cancel_button",
+                  "errors" : [ "\"cancel_button\" is not aligned horizontally all with \"login_button\". Offset is 55px" ],
+                  "highlight" : [ "login_button", "cancel_button" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "left-of cancel_button -5 to 5px",
+                  "errors" : [ "\"login_button\" is -385px left of \"cancel_button\" which is not in range of -5 to 5px" ],
+                  "highlight" : [ "login_button", "cancel_button" ]
+                } ]
+              } ]
+            }, {
+              "name" : "&all_login_form_elements are aligned vertically above each other with 10 to 20px margin",
+              "place" : {
+                "filePath" : "loginPage.gspec",
+                "lineNumber" : 35
+              },
+              "objects" : [ {
+                "name" : "login_caption",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 10
+                  },
+                  "name" : "aligned vertically all username_textfield",
+                  "highlight" : [ "login_caption", "username_textfield" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 11
+                  },
+                  "name" : "above username_textfield 10 to 20px",
+                  "highlight" : [ "login_caption", "username_textfield" ]
+                } ]
+              }, {
+                "name" : "username_textfield",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 10
+                  },
+                  "name" : "aligned vertically all password_textfield",
+                  "highlight" : [ "username_textfield", "password_textfield" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 11
+                  },
+                  "name" : "above password_textfield 10 to 20px",
+                  "highlight" : [ "username_textfield", "password_textfield" ]
+                } ]
+              }, {
+                "name" : "password_textfield",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 10
+                  },
+                  "name" : "aligned vertically all login_button",
+                  "highlight" : [ "password_textfield", "login_button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 11
+                  },
+                  "name" : "above login_button 10 to 20px",
+                  "highlight" : [ "password_textfield", "login_button" ]
+                } ]
+              }, {
+                "name" : "login_button",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 10
+                  },
+                  "name" : "aligned vertically all cancel_button",
+                  "highlight" : [ "login_button", "cancel_button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 11
+                  },
+                  "name" : "above cancel_button 10 to 20px",
+                  "highlight" : [ "login_button", "cancel_button" ]
+                } ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "menu.item-3" : {
+              "area" : [ 0, 133, 213, 63 ]
+            },
+            "cancel_button" : {
+              "area" : [ 20, 432, 385, 45 ]
+            },
+            "menu.item-4" : {
+              "area" : [ 212, 133, 213, 63 ]
+            },
+            "login_button" : {
+              "area" : [ 20, 377, 385, 45 ]
+            },
+            "login_caption" : {
+              "area" : [ 20, 236, 385, 33 ]
+            },
+            "username_textfield" : {
+              "area" : [ 20, 279, 385, 34 ]
+            },
+            "password_textfield" : {
+              "area" : [ 20, 323, 385, 34 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1511265833055,
+        "type" : "node"
+      } ],
+      "time" : 1511265826900,
+      "type" : "node"
+    } ]
+  }
+}

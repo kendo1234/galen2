@@ -1,0 +1,178 @@
+{
+  "testId" : "2-login-page-on-mobile",
+  "name" : "Login page on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/#login 1200x768",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check loginPage.gspec --include mobile",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: loginPage.gspec included tags: mobile",
+          "status" : "info",
+          "time" : 1511264502085,
+          "includedTags" : [ "mobile" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Menu",
+            "place" : {
+              "filePath" : "loginPage.gspec",
+              "lineNumber" : 22
+            },
+            "objects" : [ ],
+            "sections" : [ {
+              "name" : "&menu_items are aligned horizontally next to each other with 0px margin",
+              "place" : {
+                "filePath" : "loginPage.gspec",
+                "lineNumber" : 26
+              },
+              "objects" : [ {
+                "name" : "menu.item-1",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "aligned horizontally all menu.item-2",
+                  "highlight" : [ "menu.item-1", "menu.item-2" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 6
+                  },
+                  "name" : "left-of menu.item-2 0px",
+                  "highlight" : [ "menu.item-1", "menu.item-2" ]
+                } ]
+              }, {
+                "name" : "menu.item-2",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "aligned horizontally all menu.item-3",
+                  "highlight" : [ "menu.item-2", "menu.item-3" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 6
+                  },
+                  "name" : "left-of menu.item-3 0px",
+                  "highlight" : [ "menu.item-2", "menu.item-3" ]
+                } ]
+              }, {
+                "name" : "menu.item-3",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "aligned horizontally all menu.item-4",
+                  "highlight" : [ "menu.item-3", "menu.item-4" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 6
+                  },
+                  "name" : "left-of menu.item-4 0px",
+                  "highlight" : [ "menu.item-3", "menu.item-4" ]
+                } ]
+              } ]
+            }, {
+              "name" : "&login_form_buttons are aligned horizontally next to each other with -5 to 5px margin",
+              "place" : {
+                "filePath" : "loginPage.gspec",
+                "lineNumber" : 28
+              },
+              "objects" : [ {
+                "name" : "menu.item-1",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "aligned horizontally all menu.item-2",
+                  "highlight" : [ "menu.item-1", "menu.item-2" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 6
+                  },
+                  "name" : "left-of menu.item-2 -5 to 5px",
+                  "highlight" : [ "menu.item-1", "menu.item-2" ]
+                } ]
+              }, {
+                "name" : "menu.item-2",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "aligned horizontally all menu.item-3",
+                  "highlight" : [ "menu.item-2", "menu.item-3" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 6
+                  },
+                  "name" : "left-of menu.item-3 -5 to 5px",
+                  "highlight" : [ "menu.item-2", "menu.item-3" ]
+                } ]
+              }, {
+                "name" : "menu.item-3",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 5
+                  },
+                  "name" : "aligned horizontally all menu.item-4",
+                  "highlight" : [ "menu.item-3", "menu.item-4" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "rules.gspec",
+                    "lineNumber" : 6
+                  },
+                  "name" : "left-of menu.item-4 -5 to 5px",
+                  "highlight" : [ "menu.item-3", "menu.item-4" ]
+                } ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "menu.item-3" : {
+              "area" : [ 348, 70, 100, 63 ]
+            },
+            "menu.item-4" : {
+              "area" : [ 448, 70, 100, 63 ]
+            },
+            "menu.item-1" : {
+              "area" : [ 137, 70, 100, 63 ]
+            },
+            "menu.item-2" : {
+              "area" : [ 237, 70, 111, 63 ]
+            }
+          },
+          "screenshot" : "layout-2-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1511264499374,
+        "type" : "node"
+      } ],
+      "time" : 1511264496330,
+      "type" : "node"
+    } ]
+  }
+}

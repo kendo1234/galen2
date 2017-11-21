@@ -1,0 +1,36 @@
+@import rules.gspec
+
+@objects
+	menu		#menu ul
+		item-*		li a
+
+	login_box	#login-page
+	login_caption	#login-page h2
+	username_textfield	input[name='login.username']
+	password_textfield	input[name='login.password']
+	login_button	.button-login
+	cancel_button	.button-cancel 
+
+
+@set 
+	minimal		-5 to 5px
+
+@groups
+	menu_items	menu.item-*
+	login_form_fields 	login_caption, username_textfield, password_textfield
+	login_form_buttons		login_button, cancel_button
+	all_login_form_elements		&login_form_fields, &login_form_buttons
+
+= Menu =
+
+	@on desktop			
+	| &menu_items are aligned horizontally next to each other with -5 to 2px margin
+
+
+	@on desktop	
+	| &login_form_buttons are aligned vertically above each other with 10 to 17px margin
+	| &login_form_buttons are aligned horizontally next to each other with ${minimal} margin
+   	
+	@on mobile
+	| &all_login_form_elements are aligned vertically above each other with 10 to 20px margin
+

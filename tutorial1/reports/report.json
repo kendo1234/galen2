@@ -1,20 +1,31 @@
 {
   "tests" : [ {
-    "name" : "My notes page",
-    "startedAt" : 1510840632414,
-    "endedAt" : 1510840640963,
+    "name" : "Login page on mobile",
+    "startedAt" : 1511265826882,
+    "endedAt" : 1511265837813,
     "failed" : true,
     "statistic" : {
-      "passed" : 5,
-      "errors" : 1,
+      "passed" : 12,
+      "errors" : 2,
       "warnings" : 0,
-      "total" : 6
+      "total" : 14
     },
-    "testId" : "1-my-notes-page",
-    "duration" : 8549,
-    "groups" : [ ],
+    "testId" : "1-login-page-on-mobile",
+    "duration" : 10931,
+    "failed" : true
+  }, {
+    "name" : "Login page on desktop",
+    "startedAt" : 1511265837813,
+    "endedAt" : 1511265846685,
     "failed" : true,
-    "exceptionMessage" : "JavaScriptException: Error: Something went wrong, assume it's Landing Pages (/home/kendo/Desktop/galen-learning/tutorial1/my.test.js#20)",
-    "exceptionStacktrace" : "org.mozilla.javascript.JavaScriptException: Error: Something went wrong, assume it's Landing Pages (/home/kendo/Desktop/galen-learning/tutorial1/my.test.js#20)\n\tat org.mozilla.javascript.gen._home_kendo_Desktop_galen_learning_tutorial1_my_test_js_20._c_anonymous_2(/home/kendo/Desktop/galen-learning/tutorial1/my.test.js:20)\n\tat org.mozilla.javascript.gen._home_kendo_Desktop_galen_learning_tutorial1_my_test_js_20.call(/home/kendo/Desktop/galen-learning/tutorial1/my.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.access$000(JavaAdapter.java:15)\n\tat org.mozilla.javascript.JavaAdapter$1.run(JavaAdapter.java:586)\n\tat org.mozilla.javascript.Context.call(Context.java:489)\n\tat org.mozilla.javascript.ContextFactory.call(ContextFactory.java:504)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:583)\n\tat adapter2.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n"
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 14
+    },
+    "testId" : "2-login-page-on-desktop",
+    "duration" : 8872,
+    "failed" : true
   } ]
 }

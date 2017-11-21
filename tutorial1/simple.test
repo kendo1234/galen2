@@ -1,0 +1,9 @@
+@@table devices
+	|device|size|
+	|mobile|450x700|
+	|desktop|1200x768|
+
+@@parameterized using devices
+Login page on ${device}
+	http://testapp.galenframework.com/#login ${size}
+		check loginPage.gspec --include ${device}
